@@ -1,0 +1,105 @@
+@charset "UTF-8";
+header {
+    width: 1075px;
+    height: 325px;
+    background-image: url(japan_logo.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:auto;
+}
+footer {
+    background-color: #7F2226;
+    width: auto;
+    height: auto;
+}
+body{
+	background-image: url(grey_back.jpg);
+	background-size: cover;
+	
+}
+ul{
+    float: right;
+    width: auto;
+    height: auto;
+}
+nav{
+    width: 800px;
+    height: 50px;
+    margin-left: -21px;
+}
+#container {
+	margin:auto;
+	width: 1075px;
+	height: auto;
+	background-color: #F1E6CA;
+	
+}
+#container nav li {
+    display: block;
+    margin-top: 0px;
+    margin-right: 48px;
+    margin-bottom: 0px;
+    width: 60px;
+    float: left;
+    font-size: 25px;
+}
+nav a:visited {
+    color: #781C84;
+}
+nav a:hover {
+    color: #FFFFFF;
+	background-color: coral;
+	padding: 7px;
+	border-radius: 15px;
+}
+nav a:active {
+    color: #5E625E;
+}
+aside {
+    background-color: #7F2226;
+    float: left;
+    width: 171px;
+    height: 1318px;
+}
+#container aside h1 {
+    font-size: 23px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#container aside h2 {
+    float: none;
+    clear: none;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 7px;
+}
+main{
+	margin-left: 175px;
+}.submit_btn   {
+    background-color: #7F2226;
+    width: 268px;
+    height: 45px;
+    font-size: 26px;
+    color: #AAA4A4;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+p {
+    color: #383838;
+    font-size: 26px;
+    float: none;
+    clear: none;
+}
+#container footer p {
+    padding-left: 8px;
+}
+img {
+    float: right;
+    padding-right: 11px;
+}
+article h1 strong {
+    font-size: 35px;
+}
+.floatleft{
+	float:left
+}
